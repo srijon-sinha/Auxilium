@@ -14,7 +14,7 @@
     <!-- Josh typkit -->
     <link rel="stylesheet" href="https://use.typekit.net/jwk3puz.css">
     
-    <link href="https://cdn.shopify.com/s/files/1/1775/8583/t/1/assets/startup-materialize.min.css?4221977808808403182" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -256,6 +256,17 @@ for (var attr in meta) {
 
     <!-- Navbar -->
     <nav class="n fq">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><i class="icon-diamond"></i></a>
+        <ul id="nav-mobile" class="ag hide-on-med-and-down">
+          
+          <li><a href="#featureThing">Features</a></li>
+          <li><a href="#testimonialThing">Testimonial</a></li>
+          <li><a href="#">Testimonial</a></li>
+        </ul>
+
+        <a href="#" data-activates="slide-out" class="button-collapse ag"><i class="material-icons white-text">menu</i></a>
+      </div>
     </nav>
     <ul id="slide-out" class="side-nav">
       <li class="no-padding">
@@ -283,18 +294,22 @@ for (var attr in meta) {
     </ul>
 
     <div class="v ai">
-      <div class="bz">
-        <img src="https://cdn.shopify.com/s/files/1/1775/8583/t/1/assets/trees.jpg?4221977808808403182" alt="">
+      <div class="bz" style="background-color:white">
+        <img src="i.imgur" alt="">
       </div>
       <div class="header-wrapper c valign-wrapper">
         <div class="d iv">
-          <h1>Auxilium</h1>
-          <span class="dx">Your personal mental health assistant.</span>
-          <button class="read-more"><i class="icon-caret-down"></i></button>
+          <!-- <h1>Auxilium</h1> -->
+          <img src="logo.png" style="width:50%;">
+          <span class="dx" style="color:black">Your personal mental health assistant.</span>
+          <button class="read-more"><i class="material-icons ag">arrow_drop_down</i></button>
         </div>
       </div>
     </div>
 
+
+    <span id="featureThing"></span>
+    
     <div class="v gw valign-wrapper">
       <div class="c ci">
         <div class="d iv jc offset-m1">
@@ -308,25 +323,45 @@ for (var attr in meta) {
             </div>
             <div class="d iv jo kk fade-in-out">
               <h4><i class="icon-bolt"></i></h4>
-              <p class="ek">This is a cool feature about your product! It really separates you from the crowd.</p>
+              <p class="ek">Chatbot Sally provides AI backed assistance and treatment.</p>
             </div>
             <div class="d iv jo kk fade-in-out">
               <h4><i class="icon-rocket"></i></h4>
-              <p class="ek">This is a cool feature about your product! It really separates you from the crowd.</p>
+              <p class="ek">Connects users to mental health specialists based on a specific diagnosis.</p>
             </div>
             <div class="d iv jo kk fade-in-out">
               <h4><i class="icon-settings"></i></h4>
-              <p class="ek">This is a cool feature about your product! It really separates you from the crowd.</p>
+              <p class="ek">Gyroscope and heart rate sensor for anxiety and panic attact detection.</p>
             </div>
             <div class="d iv jo kk fade-in-out">
               <h4><i class="icon-umbrella"></i></h4>
-              <p class="ek">This is a cool feature about your product! It really separates you from the crowd.</p>
+              <p class="ek">Sleep detection based on phone activity to record insomnia.</p>
             </div>
             <div class="d iv jo kk fade-in-out">
               <h4><i class="icon-compass"></i></h4>
-              <p class="ek">This is a cool feature about your product! It really separates you from the crowd.</p>
+              <p class="ek">Integration with trusted contacts for use in the event of panic attacks and emergencies</p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <span id="testimonialThing"></span>
+    
+    <div class="v r full-height">
+      <div class="dv">
+        <div class="c">
+          <div class="d iv"><h2 class="section-title">Testimonial</h2></div>
+        </div>
+        <div class="c">
+        
+          <video width="100%" height="40%" controls>
+            <source src="testimonial.mp4" type="video/mp4">
+            <source src="testimonial.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+        
         </div>
       </div>
     </div>
@@ -336,6 +371,57 @@ for (var attr in meta) {
       <div class="c ci">
         <div class="d iv jc offset-m1">
           <div class="c">
+            
+            <div class="d iv kr">
+              <div class="transform-wrapper">
+                <div class="pricing-table scale-in-out fade-in-out left-transform-origin">
+                  <div class="pricing-header">
+                    <i class="icon-paper-plane"></i>
+                    <h4>Basic</h4>
+                    <div class="gd">
+                      <span class="hm">$</span>
+                      <span class="dollars">9</span>
+                      <span class="ic">99</span>
+                    </div>
+                  </div>
+                  <ul class="pricing-features">
+                    <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+                    <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+                    <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+                    <li class="pricing-feature au"><i class="icon-close"></i>Pro and above.</li>
+                    <li class="pricing-feature au"><i class="icon-close"></i>Enterprise only.</li>
+                    <li class="pricing-feature au"><i class="icon-close"></i>Enterprise only.</li>
+                    <li class="pricing-feature au"><i class="icon-close"></i>Enterprise only.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="d iv kr">
+              <div class="transform-wrapper">
+                <div class="pricing-table scale-in-out fade-in-out left-transform-origin">
+                  <div class="pricing-header">
+                    <i class="icon-paper-plane"></i>
+                    <h4>Basic</h4>
+                    <div class="gd">
+                      <span class="hm">$</span>
+                      <span class="dollars">9</span>
+                      <span class="ic">99</span>
+                    </div>
+                  </div>
+                  <ul class="pricing-features">
+                    <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+                    <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+                    <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+                    <li class="pricing-feature au"><i class="icon-close"></i>Pro and above.</li>
+                    <li class="pricing-feature au"><i class="icon-close"></i>Enterprise only.</li>
+                    <li class="pricing-feature au"><i class="icon-close"></i>Enterprise only.</li>
+                    <li class="pricing-feature au"><i class="icon-close"></i>Enterprise only.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
             <div class="d iv kr">
               <div class="transform-wrapper">
                 <div class="pricing-table scale-in-out fade-in-out left-transform-origin">
@@ -361,7 +447,7 @@ for (var attr in meta) {
               </div>
             </div>
 
-            <div class="d iv kr">
+            <!-- <div class="d iv kr">
               <div class="transform-wrapper">
                 <div class="pricing-table fk scale-in-out fade-in-out">
                   <div class="pricing-header">
@@ -384,9 +470,9 @@ for (var attr in meta) {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div class="d iv kr">
+            <!-- <div class="d iv kr">
               <div class="transform-wrapper">
                 <div class="pricing-table scale-in-out fade-in-out right-transform-origin">
                   <div class="pricing-header">
@@ -409,7 +495,7 @@ for (var attr in meta) {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
 
           </div>
         </div>
